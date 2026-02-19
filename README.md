@@ -32,4 +32,10 @@ For most purposes only the $q_0$ and $\lambda$ parameters are relevant to enhanc
 2. Start increasing the $\lambda$ parameter from 0 until the resulting image exhibits the best contrast.
 3. (Optional) If the resulting image appears too bright (dark), adjust the $q_0$ parameter to control the brightness, shifting it to the right (left).
 
+<img width="422" height="238" alt="ClickBaitLCEModTanh" src="https://github.com/user-attachments/assets/79417155-b1f2-49a2-90ab-e7a66ba23904" />
+
+
+## Example result
+
+<img width="498" height="325" alt="ClickBaitLCEModTanh2" src="https://github.com/user-attachments/assets/9b1bdfa1-1af8-40d2-90ab-a304d6ef6f3a" />
 
