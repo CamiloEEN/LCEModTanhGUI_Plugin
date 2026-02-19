@@ -34,8 +34,13 @@ For most purposes only the $q_0$ and $\lambda$ parameters are relevant to enhanc
 
 <img width="422" height="238" alt="ClickBaitLCEModTanh" src="https://github.com/user-attachments/assets/79417155-b1f2-49a2-90ab-e7a66ba23904" />
 
+### Usage Demonstration
 
-## Example before and after
+
+https://github.com/user-attachments/assets/7c101fc2-cadc-4d9b-bcd1-82a865930c40
+
+
+## Example before and after with the transformation applied
 
 <img width="498" height="325" alt="ClickBaitLCEModTanh2" src="https://github.com/user-attachments/assets/9b1bdfa1-1af8-40d2-90ab-a304d6ef6f3a" />
 
