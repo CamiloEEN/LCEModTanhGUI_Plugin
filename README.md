@@ -1,7 +1,11 @@
 # ModTanhCeenGUI_Plugin
-This is a Imagej plugin which implements an analytical non-linear transformation to locally enhance contrast in digital images.
-It is designed to work as a plugin for the ImageJ sofware developed in Java [see](https://imagej.net/ij/).
-An article about the mathematical formulation will be avaiable in the future. 
+
+This is an ImageJ plugin that implements an analytical, non-linear transformation for local contrast enhancement in digital images.
+
+It is based on the research article: ["Local Contrast Enhancement in Digital Images Using a Tunable Modified Hyperbolic Tangent Transformation"] (https://doi.org/10.3390/math14030571). The plugin offers a high-performance alternative to traditional techniques like Histogram Equalization (HE), Histogram Specification (HS), and CLAHE, with a specific focus on optimizing contrast in Medical Resonance (MR) images.
+
+The tool is designed as a Java-based plugin for the [ImageJ software ecosystem](https://imagej.net/ij/).
+
 
 ## Installation
 
@@ -12,7 +16,8 @@ An article about the mathematical formulation will be avaiable in the future.
 
 Note 1: If there is no image open previously the plugin will not run and only give a warning. However after it is compiled it can be accesed from the plugins menu.
 
-Note 2: The plugin only works with RGB images like .png and .jpg
+Note 2: At the moment the plugin only works with RGB images like .png and .jpg, for 8-bit images you can just convert those to RGB (from the menu bar Image > Type > RGB Color) then perform the same transformation in all channels to achieve the desired effect.
+
 
 ## Usage
 
@@ -27,11 +32,4 @@ For most purposes only the $q_0$ and $\lambda$ parameters are relevant to enhanc
 2. Start increasing the $\lambda$ parameter from 0 until the resulting image exhibits the best contrast.
 3. (Optional) If the resulting image appears too bright (dark), adjust the $q_0$ parameter to control the brightness, shifting it to the right (left).
 
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
