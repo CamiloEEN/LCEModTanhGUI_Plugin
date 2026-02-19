@@ -1,4 +1,4 @@
-# ModTanhCeenGUI_Plugin
+# LCEModTanhGUI_Plugin
 
 This is an ImageJ plugin that implements an analytical, non-linear transformation for local contrast enhancement in digital images.
 
