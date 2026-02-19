@@ -2,7 +2,7 @@
 
 This is an ImageJ plugin that implements an analytical, non-linear transformation for local contrast enhancement in digital images.
 
-It is based on the research article: [Local Contrast Enhancement in Digital Images Using a Tunable Modified Hyperbolic Tangent Transformation] (https://doi.org/10.3390/math14030571). The plugin offers a high-performance alternative to traditional techniques like Histogram Equalization (HE), Histogram Specification (HS), and CLAHE, with a specific focus on optimizing contrast in Medical Resonance (MR) images.
+It is based on the research article: [Local Contrast Enhancement in Digital Images Using a Tunable Modified Hyperbolic Tangent Transformation](https://doi.org/10.3390/math14030571). The plugin offers a high-performance alternative to traditional techniques like Histogram Equalization (HE), Histogram Specification (HS), and CLAHE, with a specific focus on optimizing contrast in Medical Resonance (MR) images.
 
 The tool is designed as a Java-based plugin for the [ImageJ software ecosystem](https://imagej.net/ij/).
 
